@@ -1,0 +1,39 @@
+{
+ "name": "plain-crypto-js",
+ "dist-tags": {
+  "latest": "0.0.1-security.0"
+ },
+ "versions": {
+  "0.0.1-security.0": {
+   "name": "plain-crypto-js",
+   "version": "0.0.1-security.0",
+   "description": "security holding package",
+   "repository": {
+    "url": "npm/security-holder"
+   },
+   "_npmUser": {
+    "name": "npm",
+    "email": ""
+   },
+   "dist": {
+    "tarball": "https://registry.npmjs.org/plain-crypto-js/-/plain-crypto-js-0.0.1-security.0.tgz",
+    "integrity": "sha512-bb5HI0A0dIAsKu6WPZtqnl67ynoXrNbD+VQPtMirZvAEVzK0SloTVUzce23YQFAc0Bo1mnRK9hl6RqwRSE56PA==",
+    "shasum": "a011a926d535fc694be743cdd5ac9f92c3ed5828",
+    "fileCount": 2,
+    "unpackedSize": 438
+   }
+  }
+ },
+ "time": {
+  "0.0.1-security": "2026-03-31T03:25:11.636Z",
+  "0.0.1-security.0": "2026-03-31T04:26:33.055Z",
+  "4.2.0": "2026-03-30T05:57:32.867Z",
+  "4.2.1": "2026-03-30T23:59:12.278Z",
+  "created": "2026-03-31T04:26:32.907Z",
+  "modified": "2026-03-31T04:26:35.731Z"
+ },
+ "description": "security holding package",
+ "repository": {
+  "url": "npm/security-holder"
+ }
+}

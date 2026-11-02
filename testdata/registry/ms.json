@@ -1,0 +1,3359 @@
+{
+ "name": "ms",
+ "dist-tags": {
+  "beta": "3.0.0-beta.2",
+  "canary": "3.0.0-canary.202508261828",
+  "latest": "2.1.3",
+  "nightly": "4.0.0-nightly.202508271359"
+ },
+ "versions": {
+  "0.1.0": {
+   "name": "ms",
+   "version": "0.1.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.1.0.tgz",
+    "integrity": "sha512-7uwYj3Xip4rOFpe5dDy+C25Ad0nAXkT4yAVMSpuh1UYR2Z7tAswSh4wb/HghRa533wofFUsvg54OQ90Mu1dCJg==",
+    "shasum": "f21fac490daf1d7667fd180fe9077389cc9442b2"
+   }
+  },
+  "0.2.0": {
+   "name": "ms",
+   "version": "0.2.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.2.0.tgz",
+    "integrity": "sha512-3hmNMG0TYmTiQD6+s+b9eKLYWYTbR+6AgZtOu60jiedzeu2JK9NS6Ih1vosLwxLutvG45slW7/fVaCM8WDXGRQ==",
+    "shasum": "6edfc5a063471f7bfd35a5831831c24275ce9dc5"
+   }
+  },
+  "0.3.0": {
+   "name": "ms",
+   "version": "0.3.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.3.0.tgz",
+    "integrity": "sha512-25BVmSAdN4KRX7XeI6/gwQ9ewx6t9QB9/8X2fVJUUDpPc03qTRaEPgt5bTMZQ5T2l+XT+haSfqIkysOupDsSVQ==",
+    "shasum": "03edc348d613e66a56486cfdac53bcbe899cbd61"
+   }
+  },
+  "0.4.0": {
+   "name": "ms",
+   "version": "0.4.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.4.0.tgz",
+    "integrity": "sha512-64oIDtd4AvWd9+PXu3mS+e+83nD/4+vDjORXYUrMsUodlxSgxHt6okjkFO94XAG+zDoBz7GPkCYFXd5OD++kJg==",
+    "shasum": "77ade5470b099bb2d83e232c25763c18cd6963f1"
+   }
+  },
+  "0.5.0": {
+   "name": "ms",
+   "version": "0.5.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.5.0.tgz",
+    "integrity": "sha512-l+4vT0spctuJn4dEuiTHFJg/o2Gu7lcPPVmoEkOvCJ7q6btdsvokZscv1rAj5rokCmiqZRWpA/apQSpgDv8ZSw==",
+    "shasum": "8e52e7e1bf521f9cea30f726de958822eab0ee27"
+   }
+  },
+  "0.5.1": {
+   "name": "ms",
+   "version": "0.5.1",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.5.1.tgz",
+    "integrity": "sha512-DgU7MSi4T3XY43mZL/Lgk31wqwe2NB56QsyVMcY3m5rICuAp+/uY1/w3lnjhPSaTYVdx1vZQ+ppUlH4AlJ6UAA==",
+    "shasum": "98058c8f9c64854d1703ab92bf3f1dcc8e713b4c"
+   }
+  },
+  "0.6.0": {
+   "name": "ms",
+   "version": "0.6.0",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.6.0.tgz",
+    "integrity": "sha512-twVBDoonss/A6chyHOAQkx8Y+daAablgQy4khn8vYnrbcU4UvLLLFX2TCVhbGOXxTxJ4pqQtlTzjBErRyq/NDA==",
+    "shasum": "21dc16a7d1dc2d8ed244dc0e6a71a5c2612b623b"
+   }
+  },
+  "0.6.1": {
+   "name": "ms",
+   "version": "0.6.1",
+   "description": "Tiny ms conversion utility",
+   "repository": {},
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.6.1.tgz",
+    "integrity": "sha512-TAjpu7RNwH/eBQfmrVg6eA6hClZfmhd3B2Ghp/Di5HMLjNBhd44KtO5lWjQj0EayygL1BsfZEJe3Y4sBHMQQEg==",
+    "shasum": "ed57e5f3fc736e09afc85017c5c912a47bc59ab9"
+   }
+  },
+  "0.6.2": {
+   "name": "ms",
+   "version": "0.6.2",
+   "description": "Tiny ms conversion utility",
+   "repository": {
+    "type": "git",
+    "url": "git://github.com/guille/ms.js.git"
+   },
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.6.2.tgz",
+    "integrity": "sha512-/pc3eh7TWorTtbvXg8je4GvrvEqCfH7PA3P7iW01yL2E53FKixzgMBaQi0NOPbMJqY34cBSvR0tZtmlTkdUG4A==",
+    "shasum": "d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
+   }
+  },
+  "0.7.0": {
+   "name": "ms",
+   "version": "0.7.0",
+   "description": "Tiny ms conversion utility",
+   "homepage": "https://github.com/guille/ms.js",
+   "repository": {
+    "type": "git",
+    "url": "git://github.com/guille/ms.js.git"
+   },
+   "gitHead": "1e9cd9b05ef0dc26f765434d2bfee42394376e52",
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.7.0.tgz",
+    "integrity": "sha512-YmuMMkfOZzzAftlHwiQxFepJx/5rDaYi9o9QanyBCk485BRAyM/vB9XoYlZvglxE/pmAWOiQgrdoE10watiK9w==",
+    "shasum": "865be94c2e7397ad8a57da6a633a6e2f30798b83"
+   }
+  },
+  "0.7.1": {
+   "name": "ms",
+   "version": "0.7.1",
+   "description": "Tiny ms conversion utility",
+   "homepage": "https://github.com/guille/ms.js",
+   "repository": {
+    "type": "git",
+    "url": "git://github.com/guille/ms.js.git"
+   },
+   "gitHead": "713dcf26d9e6fd9dbc95affe7eff9783b7f1b909",
+   "_npmUser": {
+    "name": "rauchg",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
+    "integrity": "sha512-lRLiIR9fSNpnP6TC4v8+4OU7oStC01esuNowdQ34L+Gk8e5Puoc88IqJ+XAY/B3Mn2ZKis8l8HX90oU8ivzUHg==",
+    "shasum": "9cd13c03adbff25b65effde7ce864ee952017098"
+   }
+  },
+  "0.7.2": {
+   "name": "ms",
+   "version": "0.7.2",
+   "description": "Tiny milisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "test": "xo \u0026\u0026 mocha test/index.js",
+    "test-browser": "serve ./test"
+   },
+   "gitHead": "ac92a7e0790ba2622a74d9d60690ca0d2c070a45",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.7.2.tgz",
+    "integrity": "sha512-5NnE67nQSQDJHVahPJna1PQ/zCXMnQop3yUCxjKPNzCxuyPSKWTQ/5Gu5CZmjetwGLWRA+PzeF5thlbOdbQldA==",
+    "shasum": "ae25cf2512b3885a1d95d7f037868d8431124765"
+   }
+  },
+  "0.7.3": {
+   "name": "ms",
+   "version": "0.7.3",
+   "description": "Tiny milisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "test": "xo \u0026\u0026 mocha test/index.js",
+    "test-browser": "serve ./test"
+   },
+   "gitHead": "2006a7706041443fcf1f899b5752677bd7ae01a8",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-0.7.3.tgz",
+    "integrity": "sha512-lrKNzMWqQZgwJahtrtrM+9NgOoDUveDrVmm5aGXrf3BdtL0mq7X6IVzoZaw+TfNti29eHd1/8GI+h45K5cQ6/w==",
+    "shasum": "708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
+   }
+  },
+  "1.0.0": {
+   "name": "ms",
+   "version": "1.0.0",
+   "description": "Tiny milisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "7daf984a9011e720cc3c165ed82c4506f3471b37",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-1.0.0.tgz",
+    "integrity": "sha512-85ytwCiGUnD84ui6ULG1KBFMaZgHW3jg5KPr9jt+ZPYt75+XK+JGbYddGrBQ+RSHXOhekCnCZwJywBoFvFl0kw==",
+    "shasum": "59adcd22edc543f7b5381862d31387b1f4bc9473"
+   }
+  },
+  "2.0.0": {
+   "name": "ms",
+   "version": "2.0.0",
+   "description": "Tiny milisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "9b88d1568a52ec9bb67ecc8d2aa224fa38fd41f4",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+    "integrity": "sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==",
+    "shasum": "5608aeadfc00be6c2901df5f9861788de0d597c8"
+   }
+  },
+  "2.1.0": {
+   "name": "ms",
+   "version": "2.1.0",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "845c302f155d955141d623a0276bbff3529ed626",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.0.tgz",
+    "integrity": "sha512-gVZHb22Z7YDyiiaoGld9LD4tUuDDxdkDJUEfTIej9LFePFqiE9JxI0qTFfu6tD7Wu03lg7skmVwTmA6XkeMlPQ==",
+    "shasum": "9a345be8f6a4aadc6686d74d88a23c1b84720549"
+   }
+  },
+  "2.1.1": {
+   "name": "ms",
+   "version": "2.1.1",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "fe0bae301a6c41f68a01595658a4f4f0dcba0e84",
+   "_npmUser": {
+    "name": "leo",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.1.tgz",
+    "integrity": "sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==",
+    "shasum": "30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+   }
+  },
+  "2.1.2": {
+   "name": "ms",
+   "version": "2.1.2",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/zeit/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "7920885eb232fbe7a5efdab956d3e7c507c92ddf",
+   "_npmUser": {
+    "name": "styfle",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "alexaltea",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "arunoda",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "b3nnyl",
+     "email": ""
+    },
+    {
+     "name": "caarlos0",
+     "email": ""
+    },
+    {
+     "name": "codetheory",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "fivepointseven",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "hharnisc",
+     "email": ""
+    },
+    {
+     "name": "huvik",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "juancampa",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "manovotny",
+     "email": ""
+    },
+    {
+     "name": "marcosnils",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "olliv",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "sarupbanskota",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "sophearak",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
+    "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+    "shasum": "d09d1f357b443f493382a8eb3ccd183872ae6009",
+    "fileCount": 4,
+    "unpackedSize": 6842
+   }
+  },
+  "2.1.3": {
+   "name": "ms",
+   "version": "2.1.3",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "lint": "eslint lib/* bin/*",
+    "precommit": "lint-staged",
+    "test": "mocha tests.js"
+   },
+   "gitHead": "1c6264b795492e8fdecbc82cb8802fcfbfc08d26",
+   "_npmUser": {
+    "name": "styfle",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "cleishm",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "juancampa",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "codetheory",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+    "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+    "shasum": "574c8138ce1d2b5861f0b44579dbadd60c6615b2",
+    "fileCount": 4,
+    "unpackedSize": 6721
+   }
+  },
+  "3.0.0-beta.0": {
+   "name": "ms",
+   "version": "3.0.0-beta.0",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "build": "scripts/build.js",
+    "eslint-check": "eslint --max-warnings=0 .",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build",
+    "prettier-check": "prettier --check .",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+   },
+   "gitHead": "4059199878427d37197270ee7852d7c18206e92a",
+   "_npmUser": {
+    "name": "mrmckeb",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "redacted-vercel",
+     "email": ""
+    },
+    {
+     "name": "gkaragkiaouris",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "julianbenegas",
+     "email": ""
+    },
+    {
+     "name": "rizbizkits",
+     "email": ""
+    },
+    {
+     "name": "raunofreiberg",
+     "email": ""
+    },
+    {
+     "name": "sokra",
+     "email": ""
+    },
+    {
+     "name": "cl3arglass",
+     "email": ""
+    },
+    {
+     "name": "chriswdmr",
+     "email": ""
+    },
+    {
+     "name": "ernestd",
+     "email": ""
+    },
+    {
+     "name": "ismaelrumzan",
+     "email": ""
+    },
+    {
+     "name": "jhoch",
+     "email": ""
+    },
+    {
+     "name": "mitchellwright",
+     "email": ""
+    },
+    {
+     "name": "mrmckeb",
+     "email": ""
+    },
+    {
+     "name": "kuvos",
+     "email": ""
+    },
+    {
+     "name": "creationix",
+     "email": ""
+    },
+    {
+     "name": "aboodman",
+     "email": ""
+    },
+    {
+     "name": "huozhi",
+     "email": ""
+    },
+    {
+     "name": "cmvnk",
+     "email": ""
+    },
+    {
+     "name": "arv",
+     "email": ""
+    },
+    {
+     "name": "ktcarter",
+     "email": ""
+    },
+    {
+     "name": "aspctub",
+     "email": ""
+    },
+    {
+     "name": "padmaia",
+     "email": ""
+    },
+    {
+     "name": "delba",
+     "email": ""
+    },
+    {
+     "name": "catsaremlg",
+     "email": ""
+    },
+    {
+     "name": "steventey",
+     "email": ""
+    },
+    {
+     "name": "gsandhu",
+     "email": ""
+    },
+    {
+     "name": "dbredvick",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-beta.0.tgz",
+    "integrity": "sha512-x620WtkfdGJZPaGRIJLeTEJcHiq6fHx0DR2KVfMgn4bLB3N60NUFrTTfuo7mcNPc5coqyu0ioK5m92CXnJKYGQ==",
+    "shasum": "d970e06f8b1e384befe5acae5c27209e9b93916f",
+    "fileCount": 6,
+    "unpackedSize": 13619
+   }
+  },
+  "3.0.0-beta.1": {
+   "name": "ms",
+   "version": "3.0.0-beta.1",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "build": "scripts/build.js",
+    "eslint-check": "eslint --max-warnings=0 .",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build",
+    "prettier-check": "prettier --check .",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+   },
+   "gitHead": "7068bb390311b2620e65f992cd3ad6ff19d13400",
+   "_npmUser": {
+    "name": "mrmckeb",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "redacted-vercel",
+     "email": ""
+    },
+    {
+     "name": "gkaragkiaouris",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "julianbenegas",
+     "email": ""
+    },
+    {
+     "name": "rizbizkits",
+     "email": ""
+    },
+    {
+     "name": "raunofreiberg",
+     "email": ""
+    },
+    {
+     "name": "sokra",
+     "email": ""
+    },
+    {
+     "name": "cl3arglass",
+     "email": ""
+    },
+    {
+     "name": "chriswdmr",
+     "email": ""
+    },
+    {
+     "name": "ernestd",
+     "email": ""
+    },
+    {
+     "name": "ismaelrumzan",
+     "email": ""
+    },
+    {
+     "name": "jhoch",
+     "email": ""
+    },
+    {
+     "name": "mitchellwright",
+     "email": ""
+    },
+    {
+     "name": "mrmckeb",
+     "email": ""
+    },
+    {
+     "name": "kuvos",
+     "email": ""
+    },
+    {
+     "name": "creationix",
+     "email": ""
+    },
+    {
+     "name": "aboodman",
+     "email": ""
+    },
+    {
+     "name": "huozhi",
+     "email": ""
+    },
+    {
+     "name": "cmvnk",
+     "email": ""
+    },
+    {
+     "name": "arv",
+     "email": ""
+    },
+    {
+     "name": "ktcarter",
+     "email": ""
+    },
+    {
+     "name": "aspctub",
+     "email": ""
+    },
+    {
+     "name": "padmaia",
+     "email": ""
+    },
+    {
+     "name": "delba",
+     "email": ""
+    },
+    {
+     "name": "catsaremlg",
+     "email": ""
+    },
+    {
+     "name": "steventey",
+     "email": ""
+    },
+    {
+     "name": "gsandhu",
+     "email": ""
+    },
+    {
+     "name": "dbredvick",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-beta.1.tgz",
+    "integrity": "sha512-72RBgCsIUfh6MtK1FyAqWVYjMhvYsU/5WbiTrAksNyIcv/uhR8r6g7wU5JEUIzhRYYI1uF9+I5S1vOb41NYxkw==",
+    "shasum": "1796d327b201d04705b8bf70b67442246c1e26e4",
+    "fileCount": 6,
+    "unpackedSize": 14348
+   }
+  },
+  "3.0.0-beta.2": {
+   "name": "ms",
+   "version": "3.0.0-beta.2",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "build": "scripts/build.js",
+    "eslint-check": "eslint --max-warnings=0 .",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build",
+    "prettier-check": "prettier --check .",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+   },
+   "gitHead": "6d2221735dbe9ec197e0753c22af4ce406ac512b",
+   "_npmUser": {
+    "name": "mrmckeb",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "geovanisouza92",
+     "email": ""
+    },
+    {
+     "name": "dglsparsons",
+     "email": ""
+    },
+    {
+     "name": "redacted-vercel",
+     "email": ""
+    },
+    {
+     "name": "gkaragkiaouris",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "julianbenegas",
+     "email": ""
+    },
+    {
+     "name": "rizbizkits",
+     "email": ""
+    },
+    {
+     "name": "raunofreiberg",
+     "email": ""
+    },
+    {
+     "name": "sokra",
+     "email": ""
+    },
+    {
+     "name": "cl3arglass",
+     "email": ""
+    },
+    {
+     "name": "chriswdmr",
+     "email": ""
+    },
+    {
+     "name": "ernestd",
+     "email": ""
+    },
+    {
+     "name": "ismaelrumzan",
+     "email": ""
+    },
+    {
+     "name": "jhoch",
+     "email": ""
+    },
+    {
+     "name": "mitchellwright",
+     "email": ""
+    },
+    {
+     "name": "mrmckeb",
+     "email": ""
+    },
+    {
+     "name": "kuvos",
+     "email": ""
+    },
+    {
+     "name": "creationix",
+     "email": ""
+    },
+    {
+     "name": "aboodman",
+     "email": ""
+    },
+    {
+     "name": "huozhi",
+     "email": ""
+    },
+    {
+     "name": "cmvnk",
+     "email": ""
+    },
+    {
+     "name": "arv",
+     "email": ""
+    },
+    {
+     "name": "ktcarter",
+     "email": ""
+    },
+    {
+     "name": "padmaia",
+     "email": ""
+    },
+    {
+     "name": "delba",
+     "email": ""
+    },
+    {
+     "name": "catsaremlg",
+     "email": ""
+    },
+    {
+     "name": "steventey",
+     "email": ""
+    },
+    {
+     "name": "gsandhu",
+     "email": ""
+    },
+    {
+     "name": "dbredvick",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-beta.2.tgz",
+    "integrity": "sha512-G/4X0GjOFFpeGVj0D/yxd7plnMjizeLa2mBu2yNRPQlDlvmERfqZ2alTIijo9QNH91b9g1IlJAYsVV1g6GbWvg==",
+    "shasum": "c1a586879b489759c44be2ac402ff1df7c314ed9",
+    "fileCount": 6,
+    "unpackedSize": 14286
+   }
+  },
+  "3.0.0-canary.0": {
+   "name": "ms",
+   "version": "3.0.0-canary.0",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "build": "scripts/build.js",
+    "eslint-check": "eslint --max-warnings=0 .",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build",
+    "prettier-check": "prettier --check .",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+   },
+   "gitHead": "6dd3b72e9b0a920d5ca04b989390ce89b12f62bd",
+   "_npmUser": {
+    "name": "leerobinson",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "lostinpatterns",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "geovanisouza92",
+     "email": ""
+    },
+    {
+     "name": "dglsparsons",
+     "email": ""
+    },
+    {
+     "name": "redacted-vercel",
+     "email": ""
+    },
+    {
+     "name": "gkaragkiaouris",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "julianbenegas",
+     "email": ""
+    },
+    {
+     "name": "rizbizkits",
+     "email": ""
+    },
+    {
+     "name": "raunofreiberg",
+     "email": ""
+    },
+    {
+     "name": "sokra",
+     "email": ""
+    },
+    {
+     "name": "cl3arglass",
+     "email": ""
+    },
+    {
+     "name": "chriswdmr",
+     "email": ""
+    },
+    {
+     "name": "ernestd",
+     "email": ""
+    },
+    {
+     "name": "ismaelrumzan",
+     "email": ""
+    },
+    {
+     "name": "jhoch",
+     "email": ""
+    },
+    {
+     "name": "mitchellwright",
+     "email": ""
+    },
+    {
+     "name": "mrmckeb",
+     "email": ""
+    },
+    {
+     "name": "kuvos",
+     "email": ""
+    },
+    {
+     "name": "creationix",
+     "email": ""
+    },
+    {
+     "name": "aboodman",
+     "email": ""
+    },
+    {
+     "name": "huozhi",
+     "email": ""
+    },
+    {
+     "name": "cmvnk",
+     "email": ""
+    },
+    {
+     "name": "arv",
+     "email": ""
+    },
+    {
+     "name": "ktcarter",
+     "email": ""
+    },
+    {
+     "name": "padmaia",
+     "email": ""
+    },
+    {
+     "name": "delba",
+     "email": ""
+    },
+    {
+     "name": "catsaremlg",
+     "email": ""
+    },
+    {
+     "name": "steventey",
+     "email": ""
+    },
+    {
+     "name": "gsandhu",
+     "email": ""
+    },
+    {
+     "name": "dbredvick",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.0.tgz",
+    "integrity": "sha512-FrdRKJ9G+nm9Bw6atUMrbIhGTJ2emtf0KRgtzgSrAW1nnV9RuQAXc7sbFWdr1RfOH3fcNk0MyK+ma4iihdLmyA==",
+    "shasum": "f965adb7f3afccac672ec0b2cf6bdc5320b755c5",
+    "fileCount": 3,
+    "unpackedSize": 6502
+   }
+  },
+  "3.0.0-canary.1": {
+   "name": "ms",
+   "version": "3.0.0-canary.1",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "build": "scripts/build.js",
+    "eslint-check": "eslint --max-warnings=0 .",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build",
+    "prettier-check": "prettier --check .",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+   },
+   "gitHead": "1304f150b38027e0818cc122106b5c7322d68d0c",
+   "_npmUser": {
+    "name": "leerobinson",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "lostinpatterns",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "geovanisouza92",
+     "email": ""
+    },
+    {
+     "name": "dglsparsons",
+     "email": ""
+    },
+    {
+     "name": "redacted-vercel",
+     "email": ""
+    },
+    {
+     "name": "gkaragkiaouris",
+     "email": ""
+    },
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "igorklopov",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    },
+    {
+     "name": "nkzawa",
+     "email": ""
+    },
+    {
+     "name": "tootallnate",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "timneutkens",
+     "email": ""
+    },
+    {
+     "name": "javivelasco",
+     "email": ""
+    },
+    {
+     "name": "iamevilrabbit",
+     "email": ""
+    },
+    {
+     "name": "joecohens",
+     "email": ""
+    },
+    {
+     "name": "quietshu",
+     "email": ""
+    },
+    {
+     "name": "dav-is",
+     "email": ""
+    },
+    {
+     "name": "styfle",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "lucleray",
+     "email": ""
+    },
+    {
+     "name": "mglagola",
+     "email": ""
+    },
+    {
+     "name": "andybitz",
+     "email": ""
+    },
+    {
+     "name": "paulogdm",
+     "email": ""
+    },
+    {
+     "name": "anatrajkovska",
+     "email": ""
+    },
+    {
+     "name": "timer",
+     "email": ""
+    },
+    {
+     "name": "umegaya",
+     "email": ""
+    },
+    {
+     "name": "arzafran",
+     "email": ""
+    },
+    {
+     "name": "ijjk",
+     "email": ""
+    },
+    {
+     "name": "mfix22",
+     "email": ""
+    },
+    {
+     "name": "lfades",
+     "email": ""
+    },
+    {
+     "name": "rabaut",
+     "email": ""
+    },
+    {
+     "name": "coetry",
+     "email": ""
+    },
+    {
+     "name": "msweeneydev",
+     "email": ""
+    },
+    {
+     "name": "williamli",
+     "email": ""
+    },
+    {
+     "name": "ragojose",
+     "email": ""
+    },
+    {
+     "name": "guybedford",
+     "email": ""
+    },
+    {
+     "name": "paco",
+     "email": ""
+    },
+    {
+     "name": "skllcrn",
+     "email": ""
+    },
+    {
+     "name": "janicklas-ralph",
+     "email": ""
+    },
+    {
+     "name": "atcastle",
+     "email": ""
+    },
+    {
+     "name": "keanulee",
+     "email": ""
+    },
+    {
+     "name": "spanicker",
+     "email": ""
+    },
+    {
+     "name": "developit",
+     "email": ""
+    },
+    {
+     "name": "housseindjirdeh",
+     "email": ""
+    },
+    {
+     "name": "gmonaco",
+     "email": ""
+    },
+    {
+     "name": "kikobeats",
+     "email": ""
+    },
+    {
+     "name": "prateekbh",
+     "email": ""
+    },
+    {
+     "name": "jkrems",
+     "email": ""
+    },
+    {
+     "name": "jaredpalmer",
+     "email": ""
+    },
+    {
+     "name": "gielcobben",
+     "email": ""
+    },
+    {
+     "name": "chibicode",
+     "email": ""
+    },
+    {
+     "name": "nazarenooviedo",
+     "email": ""
+    },
+    {
+     "name": "samsisle",
+     "email": ""
+    },
+    {
+     "name": "okbel",
+     "email": ""
+    },
+    {
+     "name": "hankvercel",
+     "email": ""
+    },
+    {
+     "name": "leerobinson",
+     "email": ""
+    },
+    {
+     "name": "elsigh",
+     "email": ""
+    },
+    {
+     "name": "julianbenegas",
+     "email": ""
+    },
+    {
+     "name": "rizbizkits",
+     "email": ""
+    },
+    {
+     "name": "raunofreiberg",
+     "email": ""
+    },
+    {
+     "name": "sokra",
+     "email": ""
+    },
+    {
+     "name": "cl3arglass",
+     "email": ""
+    },
+    {
+     "name": "chriswdmr",
+     "email": ""
+    },
+    {
+     "name": "ernestd",
+     "email": ""
+    },
+    {
+     "name": "ismaelrumzan",
+     "email": ""
+    },
+    {
+     "name": "jhoch",
+     "email": ""
+    },
+    {
+     "name": "mitchellwright",
+     "email": ""
+    },
+    {
+     "name": "mrmckeb",
+     "email": ""
+    },
+    {
+     "name": "kuvos",
+     "email": ""
+    },
+    {
+     "name": "creationix",
+     "email": ""
+    },
+    {
+     "name": "aboodman",
+     "email": ""
+    },
+    {
+     "name": "huozhi",
+     "email": ""
+    },
+    {
+     "name": "cmvnk",
+     "email": ""
+    },
+    {
+     "name": "arv",
+     "email": ""
+    },
+    {
+     "name": "ktcarter",
+     "email": ""
+    },
+    {
+     "name": "padmaia",
+     "email": ""
+    },
+    {
+     "name": "delba",
+     "email": ""
+    },
+    {
+     "name": "catsaremlg",
+     "email": ""
+    },
+    {
+     "name": "steventey",
+     "email": ""
+    },
+    {
+     "name": "gsandhu",
+     "email": ""
+    },
+    {
+     "name": "dbredvick",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.1.tgz",
+    "integrity": "sha512-kh8ARjh8rMN7Du2igDRO9QJnqCb2xYTJxyQYK7vJJS4TvLLmsbyhiKpSW+t+y26gyOyMd0riphX0GeWKU3ky5g==",
+    "shasum": "c7b34fbce381492fd0b345d1cf56e14d67b77b80",
+    "fileCount": 6,
+    "unpackedSize": 14294
+   }
+  },
+  "3.0.0-canary.202508252028": {
+   "name": "ms",
+   "version": "3.0.0-canary.202508252028",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.202508252028.tgz",
+    "integrity": "sha512-RQbGfUXAiJXKVYkDfWsFTVx9gTqp3faKRrkRttVTvrv5YRVRrwyBUm7pEoCBy/araR1SWUYAko5UYRc1V/c2Aw==",
+    "shasum": "f029c478f82bb51e7ca0bb5716ceb0b4c162e5c7",
+    "fileCount": 9,
+    "unpackedSize": 34210,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@3.0.0-canary.202508252028",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "3.0.0-canary.202508252038": {
+   "name": "ms",
+   "version": "3.0.0-canary.202508252038",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.202508252038.tgz",
+    "integrity": "sha512-tX5/UFOaz3ebD/EFEghYRZOR+zHXA2jQaooMrO8oJv6j1xxAMTz6y7A/B/kM5TF1xdDYl/LEGx0KBoFULds37A==",
+    "shasum": "37fc9634c785f23b249e2e6eca8ace2affbec887",
+    "fileCount": 9,
+    "unpackedSize": 34210,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@3.0.0-canary.202508252038",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "3.0.0-canary.202508261539": {
+   "name": "ms",
+   "version": "3.0.0-canary.202508261539",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.202508261539.tgz",
+    "integrity": "sha512-+0Ch2wvaYYLDHtxDSA/trqDu6MOAFE8CDP5+YjwULPD3cAd6wohz5Rqs+UcbG9lduJAW+UwG1WcOVObDdCJw9g==",
+    "shasum": "9450498c08a58442c44a038f439cf0611f920f1d",
+    "fileCount": 9,
+    "unpackedSize": 34317,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@3.0.0-canary.202508261539",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "3.0.0-canary.202508261745": {
+   "name": "ms",
+   "version": "3.0.0-canary.202508261745",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.202508261745.tgz",
+    "integrity": "sha512-FCyxD+ZxwuTHxobMbzyLAr3Chea/N5M0vNuuQyX0Uovv8w8ctgxaSZR/MN4M7VIYYsvCASk+UnCrg2N2QhEw7w==",
+    "shasum": "d5d8474dcc674acb139a56afcb0d000b131a4cfa",
+    "fileCount": 9,
+    "unpackedSize": 34317,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@3.0.0-canary.202508261745",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "3.0.0-canary.202508261828": {
+   "name": "ms",
+   "version": "3.0.0-canary.202508261828",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-3.0.0-canary.202508261828.tgz",
+    "integrity": "sha512-NotsCoUCIUkojWCzQff4ttdCfIPoA1UGZsyQbi7KmqkNRfKCrvga8JJi2PknHymHOuor0cJSn/ylj52Cbt2IrQ==",
+    "shasum": "be2e8829740af5bd1db8605ca4fcb0d1ff44c11f",
+    "fileCount": 9,
+    "unpackedSize": 34524,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@3.0.0-canary.202508261828",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "4.0.0-nightly.202508270145": {
+   "name": "ms",
+   "version": "4.0.0-nightly.202508270145",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-4.0.0-nightly.202508270145.tgz",
+    "integrity": "sha512-mkkx3hAchIiAh60+BIPv0Pq/0M58ufCxxC5fCwBOnu8SCqcI28agOS3zeYt1Ax3s1n1BFyYqxB8w3F8nYbYNEg==",
+    "shasum": "31db3000488e96b811e96f2cd62ceb91ca6aa220",
+    "fileCount": 9,
+    "unpackedSize": 34525,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@4.0.0-nightly.202508270145",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "4.0.0-nightly.202508271358": {
+   "name": "ms",
+   "version": "4.0.0-nightly.202508271358",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-4.0.0-nightly.202508271358.tgz",
+    "integrity": "sha512-9BfkHoMNYiIm6m5eUuKJ9f02WWMuLsO0MqsvGdrCL7J2Cq3mEKmMBh7MAezHA7nCMx+j9FHhJviZqEuLliJJbw==",
+    "shasum": "fc7b154df5c3b8531815b1f29f16ddc6529c1f74",
+    "fileCount": 9,
+    "unpackedSize": 34318,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@4.0.0-nightly.202508271358",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  },
+  "4.0.0-nightly.202508271359": {
+   "name": "ms",
+   "version": "4.0.0-nightly.202508271359",
+   "description": "Tiny millisecond conversion utility",
+   "homepage": "https://github.com/vercel/ms#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/ms.git"
+   },
+   "scripts": {
+    "attw": "pnpm build \u0026\u0026 attw --pack --profile esm-only .",
+    "build": "tsdown",
+    "format": "biome format",
+    "lint": "biome lint",
+    "precommit": "lint-staged",
+    "test": "pnpm run test:nodejs \u0026\u0026 pnpm run test:edge",
+    "test:edge": "jest --env @edge-runtime/jest-environment --no-coverage",
+    "test:nodejs": "jest --env node",
+    "typecheck": "tsc --noEmit"
+   },
+   "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "matheuss",
+     "email": ""
+    },
+    {
+     "name": "rauchg",
+     "email": ""
+    },
+    {
+     "name": "nick.tracey",
+     "email": ""
+    },
+    {
+     "name": "vercel-release-bot",
+     "email": ""
+    },
+    {
+     "name": "zeit-bot",
+     "email": ""
+    },
+    {
+     "name": "matt.straka",
+     "email": ""
+    },
+    {
+     "name": "bkonkle",
+     "email": ""
+    },
+    {
+     "name": "leo",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/ms/-/ms-4.0.0-nightly.202508271359.tgz",
+    "integrity": "sha512-WC/Eo7NzFrOV/RRrTaI0fxKVbNCzEy76j2VqNV8SxDf9D69gSE2Lh0QwYvDlhiYmheBYExAvEAxVf5NoN0cj2A==",
+    "shasum": "8ece37f3e9335e111417e5eecd1e4e89a904b6ad",
+    "fileCount": 5,
+    "unpackedSize": 14671,
+    "attestations": {
+     "url": "https://registry.npmjs.org/-/npm/v1/attestations/ms@4.0.0-nightly.202508271359",
+     "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+     }
+    }
+   }
+  }
+ },
+ "time": {
+  "0.1.0": "2011-12-21T19:38:26.538Z",
+  "0.2.0": "2012-09-03T20:33:06.093Z",
+  "0.3.0": "2012-09-07T20:36:45.931Z",
+  "0.4.0": "2012-10-22T17:01:26.046Z",
+  "0.5.0": "2012-11-10T00:39:49.944Z",
+  "0.5.1": "2013-02-24T20:27:27.010Z",
+  "0.6.0": "2013-03-15T15:26:35.127Z",
+  "0.6.1": "2013-05-10T15:38:08.059Z",
+  "0.6.2": "2013-12-05T15:57:45.292Z",
+  "0.7.0": "2014-11-24T07:59:08.195Z",
+  "0.7.1": "2015-04-20T23:38:57.957Z",
+  "0.7.2": "2016-10-25T08:16:49.773Z",
+  "0.7.3": "2017-03-08T21:59:28.048Z",
+  "1.0.0": "2017-03-19T21:43:15.128Z",
+  "2.0.0": "2017-05-16T12:26:06.610Z",
+  "2.1.0": "2017-11-30T16:54:16.315Z",
+  "2.1.1": "2017-11-30T18:30:16.876Z",
+  "2.1.2": "2019-06-06T17:31:55.859Z",
+  "2.1.3": "2020-12-08T13:54:35.223Z",
+  "3.0.0-beta.0": "2021-08-20T14:54:07.095Z",
+  "3.0.0-beta.1": "2021-08-20T15:29:19.828Z",
+  "3.0.0-beta.2": "2021-08-25T16:55:32.842Z",
+  "3.0.0-canary.0": "2021-09-15T13:29:00.734Z",
+  "3.0.0-canary.1": "2021-09-15T15:40:43.956Z",
+  "3.0.0-canary.202508252028": "2025-08-25T20:28:46.460Z",
+  "3.0.0-canary.202508252038": "2025-08-25T20:38:35.506Z",
+  "3.0.0-canary.202508261539": "2025-08-26T15:39:38.959Z",
+  "3.0.0-canary.202508261745": "2025-08-26T17:45:38.383Z",
+  "3.0.0-canary.202508261828": "2025-08-26T18:28:57.034Z",
+  "4.0.0-nightly.202508270145": "2025-08-27T01:45:30.567Z",
+  "4.0.0-nightly.202508271358": "2025-08-27T13:58:29.891Z",
+  "4.0.0-nightly.202508271359": "2025-08-27T14:00:01.232Z",
+  "created": "2011-12-21T19:38:08.664Z",
+  "modified": "2025-09-08T19:56:54.242Z"
+ },
+ "description": "Tiny millisecond conversion utility",
+ "homepage": "https://github.com/vercel/ms#readme",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/vercel/ms.git"
+ },
+ "maintainers": [
+  {
+   "name": "matheuss",
+   "email": ""
+  },
+  {
+   "name": "rauchg",
+   "email": ""
+  },
+  {
+   "name": "nick.tracey",
+   "email": ""
+  },
+  {
+   "name": "vercel-release-bot",
+   "email": ""
+  },
+  {
+   "name": "zeit-bot",
+   "email": ""
+  },
+  {
+   "name": "matt.straka",
+   "email": ""
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "name": "easy-day-js",
+ "dist-tags": {
+  "latest": "1.11.21"
+ },
+ "versions": {
+  "1.11.21": {
+   "name": "easy-day-js",
+   "version": "1.11.21",
+   "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+   "homepage": "https://day.js.org",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkun/dayjs.git"
+   },
+   "scripts": {
+    "babel": "cross-env BABEL_ENV=build babel src --out-dir esm --copy-files \u0026\u0026 node build/esm",
+    "build": "cross-env BABEL_ENV=build node build \u0026\u0026 npm run size",
+    "lint": "eslint src/* test/* build/*",
+    "prettier": "prettier --write \"docs/**/*.md\"",
+    "sauce": "npx karma start karma.sauce.conf.js",
+    "size": "size-limit \u0026\u0026 gzip-size dayjs.min.js",
+    "test": "cross-env TZ=Pacific/Auckland npm run test-tz \u0026\u0026 cross-env TZ=Europe/London npm run test-tz \u0026\u0026 cross-env TZ=America/Whitehorse npm run test-tz \u0026\u0026 npm run test-tz \u0026\u0026 jest --coverage --coverageThreshold=\"{ \\\"global\\\": { \\\"lines\\\": 100} }\"",
+    "test-tz": "date \u0026\u0026 jest test/timezone.test --coverage=false",
+    "test:sauce": "npm run sauce -- 0 \u0026\u0026 npm run sauce -- 1 \u0026\u0026 npm run sauce -- 2  \u0026\u0026 npm run sauce -- 3"
+   },
+   "_npmUser": {
+    "name": "sergey2016",
+    "email": ""
+   },
+   "maintainers": [
+    {
+     "name": "sergey2016",
+     "email": ""
+    }
+   ],
+   "dist": {
+    "tarball": "https://registry.npmjs.org/easy-day-js/-/easy-day-js-1.11.21.tgz",
+    "integrity": "sha512-8epfKcaa7LepSXe8E/PURYdS0QFlAzxfvpafvZ05a32xasJloAPLdxmjmWzrzKtjGBrJ++OsnwYYjQbqKpn1QQ==",
+    "shasum": "9d0b4a021c89cac3c438907268d251914d3e5b37",
+    "fileCount": 451,
+    "unpackedSize": 680092
+   }
+  }
+ },
+ "time": {
+  "1.11.21": "2026-06-16T07:05:42.457Z",
+  "1.11.22": "2026-06-17T01:01:33.087Z",
+  "created": "2026-06-16T07:05:42.093Z",
+  "modified": "2026-06-17T06:50:06.352Z"
+ },
+ "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+ "homepage": "https://day.js.org",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/iamkun/dayjs.git"
+ },
+ "maintainers": [
+  {
+   "name": "sergey2016",
+   "email": ""
+  }
+ ]
+}
