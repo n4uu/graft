@@ -1,0 +1,55 @@
+# Versions known to be malicious, from public reporting. Every entry below
+# was cross-checked against the registry on 2026-11-02: the version appears
+# in the package's time{} record and is gone from versions{} (or the whole
+# package is a security holding placeholder). versions: ["*"] marks a
+# package that was malicious from the start.
+
+- incident: axios maintainer account takeover (UNC1069 / Sapphire Sleet)
+  date: 2026-03-31
+  refs:
+    - https://www.tenable.com/blog/faq-about-the-axios-npm-supply-chain-attack-by-north-korea-nexus-threat-actor-unc1069
+    - https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/
+  packages:
+    axios: ["1.14.1", "0.30.4"]
+    plain-crypto-js: ["*"]
+
+- incident: Mastra ecosystem compromise, easy-day-js dependency (UNC1069 / Sapphire Sleet)
+  date: 2026-06-17
+  refs:
+    - https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/
+  packages:
+    easy-day-js: ["*"]
+
+- incident: Shai-Hulud worm
+  date: 2025-09-15
+  refs:
+    - https://advisories.gitlab.com/pkg/npm/@ctrl/tinycolor/MAL-2025-47141/
+    - https://truesec.com/hub/blog/500-npm-packages-compromised-in-ongoing-supply-chain-attack-shai-hulud
+  packages:
+    "@ctrl/tinycolor": ["4.1.1", "4.1.2"]
+
+- incident: qix maintainer phishing (crypto clipper in 18+ packages)
+  date: 2025-09-08
+  refs:
+    - https://www.theregister.com/2025/09/08/dev_falls_for_phishing_email
+    - https://blog.checkpoint.com/crypto/the-great-npm-heist-september-2025/
+  packages:
+    ansi-styles: ["6.2.2"]
+    debug: ["4.4.2"]
+    chalk: ["5.6.1"]
+    supports-color: ["10.2.1"]
+    strip-ansi: ["7.1.1"]
+    ansi-regex: ["6.2.1"]
+    wrap-ansi: ["9.0.1"]
+    color-convert: ["3.1.1"]
+    color-name: ["2.0.1"]
+    is-arrayish: ["0.3.3"]
+    slice-ansi: ["7.1.1"]
+    color: ["5.0.1"]
+    color-string: ["2.1.1"]
+    simple-swizzle: ["0.2.3"]
+    supports-hyperlinks: ["4.1.1"]
+    has-ansi: ["6.0.1"]
+    chalk-template: ["1.1.1"]
+    backslash: ["0.2.1"]
+    error-ex: ["1.3.3"]

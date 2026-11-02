@@ -1,0 +1,103 @@
+# graft default policy.
+#
+# Points are additive within a version's findings, damped inside a group
+# (the strongest signal counts in full, the next at group_decay, and so on),
+# because signals in one group tend to fire together for the same reason.
+# Calibration notes are next to each weight; the case studies in the README
+# show what the numbers do on real incidents.
+
+thresholds:
+  critical: 12
+  high: 7
+  medium: 4
+  low: 1
+
+group_decay: 0.5
+
+# A dependency first published fewer than this many days before the
+# release that added it counts as young. plain-crypto-js was 18 hours old.
+young_days: 30
+
+# Releases to different lines of one package inside this window. Alone it
+# means nothing (express 4.22.1 and 5.2.1 shipped 58 seconds apart from a
+# legitimate maintainer); it only adds weight next to other signals.
+burst_window: 2h
+
+# Same account pushing new versions of packages owned by several different
+# organisations inside this window: the shape of a phished maintainer (19
+# packages across chalk/, debug-js/ and Qix-/ in 8 minutes on 2025-09-08).
+# Counting owners rather than repositories matters: the clean fix releases
+# of chalk, ansi-styles, ansi-regex and wrap-ansi went out 23 minutes apart
+# the same afternoon, all under chalk/, and a prolific maintainer releasing
+# across their own organisation is routine.
+publisher_burst:
+  window: 30m
+  min_owners: 3
+
+signals:
+  # verdicts: the registry or a feed already says so
+  known_malicious:            {points: 20, group: verdict}
+  security_holding:           {points: 20, group: verdict}
+  dependency_malicious:       {points: 14, group: verdict}
+  never_published:            {points: 8,  group: verdict}
+  unpublished:                {points: 8,  group: verdict}
+  deprecated_security:        {points: 8,  group: verdict}
+  installed_mismatch:         {points: 10, group: verdict}
+  package_missing:            {points: 4,  group: verdict}
+
+  # how the version was published, compared with the one before it
+  trusted_publisher_dropped:  {points: 5,  group: publishing}
+  provenance_dropped:         {points: 4,  group: publishing}
+  # maintainer handovers are routine (send, jwa, wordwrap in one real
+  # tree); a new publisher only matters next to something else
+  publisher_new:              {points: 2,  group: publishing}
+  githead_missing:            {points: 1,  group: publishing}
+
+  # what the version does on install
+  install_script_added:       {points: 5,  group: install}
+
+  # what it pulls in
+  dependency_added:           {points: 1,  group: dependencies}
+  young_dependency:           {points: 4,  group: dependencies}
+  dependency_install_script:  {points: 4,  group: dependencies}
+
+  # who it claims to be
+  lookalike_name:             {points: 2,  group: identity}
+  impersonation:              {points: 6,  group: identity}
+
+  # when it appeared
+  release_burst:              {points: 1,  group: timing}
+  publisher_burst:            {points: 5,  group: timing}
+
+  # tarball content (-deep)
+  obfuscated_code:            {points: 6,  group: content}
+  install_script_behaviour:   {points: 5,  group: content}
+  self_tampering:             {points: 6,  group: content}
+
+allow:
+  # Packages that legitimately add or keep install scripts (native builds,
+  # binary downloaders). install_script_added is not raised for them.
+  install_scripts:
+    - esbuild
+    - sharp
+    - "@swc/core"
+    - bcrypt
+    - sqlite3
+    - better-sqlite3
+    - canvas
+    - node-sass
+    - puppeteer
+    - playwright
+    - electron
+    - cypress
+    - fsevents
+    - core-js
+    - protobufjs
+    - "@prisma/client"
+    - prisma
+    - husky
+    - msw
+    - nx
+    - "@sentry/cli"
+  # Packages graft never evaluates.
+  packages: []
