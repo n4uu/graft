@@ -302,7 +302,19 @@ directory (slimmed and gzipped: 39 MB for the whole Superset tree) for six
 hours; `-offline` uses only the cache, `-registry` and `NPM_TOKEN` point it
 at a private registry.
 
-## Build
+## Install
+
+Prebuilt binaries for Linux, macOS and Windows (amd64 and arm64) are on the
+[releases page](https://github.com/n4uu/graft/releases/latest). They're built
+by GitHub Actions from the tagged commit, never on a workstation, and every
+archive carries a signed build provenance attestation (the same kind of
+evidence graft looks for on npm releases):
+
+```sh
+gh attestation verify graft_*_linux_amd64.tar.gz -R n4uu/graft
+```
+
+To build from source instead:
 
 ```sh
 git clone https://github.com/n4uu/graft
