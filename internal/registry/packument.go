@@ -349,8 +349,13 @@ func (m *Manifest) AllDeps() map[string]string {
 func (p *Packument) Slim() *Packument {
 	q := &Packument{
 		Name: p.Name, DistTags: p.DistTags, Time: p.Time, Description: p.Description,
-		Homepage: p.Homepage, Repository: p.Repository, Maintainers: p.Maintainers,
+		Homepage: p.Homepage, Repository: p.Repository,
 		Versions: make(map[string]*Manifest, len(p.Versions)),
+	}
+	// Maintainer names are evidence (who publishes what); their email
+	// addresses aren't, and don't belong in a cache on disk.
+	for _, m := range p.Maintainers {
+		q.Maintainers = append(q.Maintainers, Person{Name: m.Name})
 	}
 	for v, m := range p.Versions {
 		s := &Manifest{
