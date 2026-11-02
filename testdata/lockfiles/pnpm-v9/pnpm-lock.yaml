@@ -1,0 +1,37 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@acme/agent-kit':
+        specifier: ^0.9.0
+        version: 0.9.2
+      chalk:
+        specifier: ^5.6.0
+        version: 5.6.1
+
+packages:
+
+  '@acme/agent-kit@0.9.2':
+    resolution: {integrity: sha512-ke+/Hfi92YyVXonTM+DZ1xXVTZ2o5pXAd/i9IQzk3wunijhuPPYaECG7Y2RBYh9iZut94vz9YYJArmyi4RLqbQ==}
+
+  easy-day-js@1.11.22:
+    resolution: {integrity: sha512-ysNqsy4xDYk1Cfbai9yw0Q30iWljAfwT1ES0OJ5o3Ee1jjSi/HENSqwHKo+iY/5G3kZCZf7ZiGwxUAWpfQYM2g==}
+
+  chalk@5.6.1:
+    resolution: {integrity: sha512-dSi0JQWAKd90tE4zmV0r3POy55Uz+4YQxq/GpsGG0ywcujFH6RVdklpA8UkL8yuPky44grvy7GM7AkYUOwXk+w==}
+
+snapshots:
+
+  '@acme/agent-kit@0.9.2':
+    dependencies:
+      easy-day-js: 1.11.22
+
+  easy-day-js@1.11.22: {}
+
+  chalk@5.6.1: {}
