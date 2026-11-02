@@ -1,0 +1,53 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: gofmt
+        run: test -z "$(gofmt -l .)" || (gofmt -l .; exit 1)
+
+      - name: go vet
+        run: go vet ./...
+
+      - name: go test
+        run: go test -race ./...
+
+      - name: build
+        run: go build -o bin/graft ./cmd/graft
+
+      - name: offline smoke test (built-in feed only, no network)
+        run: |
+          set +e
+          ./bin/graft audit -offline -cache "" -min low testdata/lockfiles
+          test $? -eq 1
+
+      - name: live check against registry.npmjs.org
+        run: |
+          set +e
+          ./bin/graft check axios@1.14.1 plain-crypto-js@4.2.1 easy-day-js@1.11.21
+          test $? -eq 1 || exit 1
+          ./bin/graft check -fail-on medium axios@1.15.0 dayjs@1.11.23 express@5.3.0
+          test $? -eq 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: SARIF output validates against the OASIS schema
+        run: |
+          pip install jsonschema
+          curl -sSL -o /tmp/sarif-schema.json https://www.schemastore.org/sarif-2.1.0.json
+          ./bin/graft audit -format sarif -min low -fail-on none -o /tmp/graft.sarif testdata/lockfiles
+          python3 -c "import json,jsonschema; jsonschema.validate(json.load(open('/tmp/graft.sarif')), json.load(open('/tmp/sarif-schema.json'))); print('sarif ok')"

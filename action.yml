@@ -1,0 +1,69 @@
+name: graft
+description: Find compromised releases in npm dependency trees and report them to code scanning
+author: n4uu
+branding:
+  icon: shield
+  color: red
+
+inputs:
+  path:
+    description: Directory (searched recursively) or lockfile to audit
+    default: "."
+  fail-on:
+    description: Fail the step at this level or above (critical, high, medium, low, none)
+    default: high
+  min:
+    description: Lowest level reported
+    default: medium
+  deep:
+    description: Download and inspect tarballs of suspicious versions
+    default: "false"
+  upload-sarif:
+    description: Upload results to GitHub code scanning
+    default: "true"
+  version:
+    description: graft version to install (a tag or commit); defaults to the action's own ref
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-go@v5
+      with:
+        go-version: "1.24"
+        cache: false
+
+    - name: Install graft
+      shell: bash
+      env:
+        REF: ${{ inputs.version || github.action_ref || 'main' }}
+      run: go install "github.com/n4uu/graft/cmd/graft@${REF}"
+
+    - name: Audit
+      id: audit
+      shell: bash
+      env:
+        TARGET: ${{ inputs.path }}
+        MIN: ${{ inputs.min }}
+        FAIL_ON: ${{ inputs.fail-on }}
+        DEEP: ${{ inputs.deep }}
+      run: |
+        set +e
+        extra=()
+        [ "$DEEP" = "true" ] && extra+=(-deep)
+        # First pass writes SARIF and warms the registry cache; the second
+        # prints the readable report and decides the exit status.
+        graft audit -format sarif -o graft.sarif -min "$MIN" -fail-on none "${extra[@]}" "$TARGET"
+        graft audit -min "$MIN" -fail-on "$FAIL_ON" "${extra[@]}" "$TARGET"
+        echo "status=$?" >> "$GITHUB_OUTPUT"
+
+    - name: Upload SARIF
+      if: inputs.upload-sarif == 'true'
+      uses: github/codeql-action/upload-sarif@v3
+      with:
+        sarif_file: graft.sarif
+        category: graft
+
+    - name: Result
+      shell: bash
+      run: exit ${{ steps.audit.outputs.status }}

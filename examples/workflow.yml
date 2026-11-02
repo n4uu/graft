@@ -1,0 +1,21 @@
+# .github/workflows/graft.yml in a project that uses npm, yarn or pnpm.
+name: dependency audit
+
+on:
+  pull_request:
+    paths: ["**/package-lock.json", "**/yarn.lock", "**/pnpm-lock.yaml"]
+  schedule:
+    - cron: "17 6 * * *" # daily: a version that was fine yesterday can be pulled today
+
+permissions:
+  contents: read
+  security-events: write # for the SARIF upload
+
+jobs:
+  graft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: n4uu/graft@main
+        with:
+          fail-on: high
